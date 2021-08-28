@@ -7,7 +7,7 @@ public class BalancedParanthisis {
 	public static void main(String[] args) {
 		
 			Scanner sc=new Scanner(System.in);
-			System.out.println("Enter max lenght: ");
+			System.out.println("Enter max lenght: "); //length of stack
 			int n=sc.nextInt();
 		
 			StackL stack = new StackL(n); //create stack

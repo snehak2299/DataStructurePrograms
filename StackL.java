@@ -12,28 +12,27 @@ public class StackL {
 	stackArray = new long[maxSize];
 	top = -1;
 	}
-	//for push   
-	public void push(long j)
+   
+	public void push(long j) //push operation
 	{
 	stackArray[++top] = j;
-	}
-	//for pop   
-	public long pop() 
+	}   
+	public long pop() //for pop
 	{
 	return stackArray[top--];
 	}
-	//for peek   
-	public long peek() 
+  
+	public long peek() //for peek 
 	{
 	return stackArray[top];
 	}
-	//to check whether stack is empty	   
-	public boolean isEmpty()
+		   
+	public boolean isEmpty() //to check whether stack is empty
 	{
 	return (top == -1);
 	}
-	//to check whether stack is full	   
-	public boolean isFull()
+		   
+	public boolean isFull() //to check whether stack is full
 	{
 	return (top == maxSize - 1);
 	}
